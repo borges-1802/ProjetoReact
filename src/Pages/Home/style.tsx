@@ -26,6 +26,7 @@ margin-top: 10px;
 `
 
 export const CategoriaHome = styled.div`
+
 `
 export const CategoriaCima = styled.div`
 display: flex;
@@ -33,7 +34,8 @@ flex-direction: row;
 margin-top: 10px;
 padding-left: 25px;
 padding-right: 20px;
-justify-content: space-around;
+justify-content: center;
+gap: 30px;
 `
 
 export const CategoriaBaixo = styled.div`
@@ -42,7 +44,8 @@ flex-direction: row;
 margin-top: 10px;
 padding-left: 32px;
 padding-right: 20px;
-justify-content: space-around;
+justify-content: center;
+gap: 25px;
 margin-bottom: 10px;
 `
 
