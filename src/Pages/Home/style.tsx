@@ -26,27 +26,19 @@ margin-top: 10px;
 `
 
 export const CategoriaHome = styled.div`
-
-`
-export const CategoriaCima = styled.div`
 display: flex;
 flex-direction: row;
+justify-content: center;
 margin-top: 10px;
-padding-left: 25px;
-padding-right: 20px;
+`
+export const CategoriaSecao = styled.div`
+display: flex;
+flex-direction: column;
+margin-top: 10px;
+padding-left: 20px;
+padding-right: 2px;
 justify-content: center;
 gap: 30px;
-`
-
-export const CategoriaBaixo = styled.div`
-display: flex;
-flex-direction: row;
-margin-top: 10px;
-padding-left: 32px;
-padding-right: 20px;
-justify-content: center;
-gap: 25px;
-margin-bottom: 10px;
 `
 
 export const BarraHorizontal = styled.div`

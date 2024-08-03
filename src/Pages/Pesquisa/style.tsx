@@ -7,10 +7,8 @@ flex: 1;
 export const ProdutoLinha = styled.div`
 display: flex;
 flex-direction: row;
-margin-top: 22px;
-padding-left: 25px;
-padding-right: 25px;
-justify-content: space-around;
+justify-content: space-evenly;
+margin-top: 20px;
 `
 
 export const Produtos = styled.div`

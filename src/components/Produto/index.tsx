@@ -1,26 +1,26 @@
-import { BaseProduto, Coracao, Detalhes, ImgProduto, Inferior } from "./style"
-import ProdutoFoto from "../../assets/imgTV.png"
+import { BaseProduto, Coracao, Detalhes, ImgProduto, Inferior, TextoPreco, TextoProduto } from "./style"
 import CoracaoUm from "../../assets/coracao.png"
 
 type Props = {
+    imagem: string;
     nome: string;
     preço: string;
+
 }
 
-export default function Produto({nome,preço}: Props) {
+export default function Produto({imagem,nome,preço}: Props) {
     return (
-
         <BaseProduto>
 
-        <ImgProduto src={ProdutoFoto}/>
+            <ImgProduto src={imagem}/>
         
-        <Inferior>
-        <Detalhes>
-        <p>{nome}</p>
-        <p>{preço}</p>
-        </Detalhes>
-        <Coracao src={CoracaoUm}/>
-        </Inferior>
+            <Inferior>
+                <Detalhes>
+                    <TextoProduto>{nome}</TextoProduto>
+                    <TextoPreco>{preço}</TextoPreco>
+                </Detalhes>
+                <Coracao src={CoracaoUm}/>
+            </Inferior>
 
         </BaseProduto>
 

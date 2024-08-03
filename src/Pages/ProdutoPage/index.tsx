@@ -5,6 +5,7 @@ import CelularProduto from "../../assets/CelularProduto.png"
 import IconesProduto from "../../assets/favsProduto.png"
 import ImgVendedor from "../../assets/VendedorProduto.png"
 import Estrelinhas from "../../assets/Estrelinhas.png"
+import NavBar from "../../components/NavBar";
 
 
 function ProdutoPage(){
@@ -43,9 +44,7 @@ function ProdutoPage(){
 
         <BotaoPreto nome={"Comprar"}/>
 
-
-
-
+        <NavBar/>
         </ProdutoDiv>
 
     )

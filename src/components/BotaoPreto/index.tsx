@@ -6,7 +6,9 @@ type Props = {
 
 export default function BotaoPreto({nome}:Props){
     return(
+        
         <BaseBotao>
+        
         <NomeBotao>{nome}</NomeBotao>
         </BaseBotao>
     )
