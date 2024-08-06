@@ -1,5 +1,6 @@
 import { BaseProduto, Coracao, Detalhes, ImgProduto, Inferior, TextoPreco, TextoProduto } from "./style"
 import CoracaoUm from "../../assets/coracao.png"
+import { Link } from "react-router-dom";
 
 type Props = {
     imagem: string;

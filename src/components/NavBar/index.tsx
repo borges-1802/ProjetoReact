@@ -3,25 +3,28 @@ import HomeIcon from "../../assets/casa.png"
 import MsgIcon from "../../assets/msg.png"
 import NotificaIcon from "../../assets/notifica.png"
 import PerfilIcon from "../../assets/perfil.png"
+import { Link } from "react-router-dom";
 
 export default function NavBar(){
     return(
 
         <NavBarDiv>
             <ComponentesNav>
-            <Icones src={HomeIcon}/>
+            <Link to="/Home"><Icones src={HomeIcon}/></Link>
             <Texto>Home</Texto>
             </ComponentesNav>
             <ComponentesNav>
-            <Icones src={MsgIcon}/>
+            <Link to="/ErroPaginaDois">
+            <Icones src={MsgIcon}/></Link>
             <Texto>Chat</Texto>
             </ComponentesNav>
             <ComponentesNav>
-            <Icones src={NotificaIcon}/>
+            <Link to="/ErroPaginaDois">
+            <Icones src={NotificaIcon}/></Link>
             <Texto>Avisos</Texto>
             </ComponentesNav>
             <ComponentesNav>
-            <Icones src={PerfilIcon}/>
+            <Link to="/ErroPaginaDois"><Icones src={PerfilIcon}/></Link>
             <Texto>Perfil </Texto>
             </ComponentesNav>
         </NavBarDiv>

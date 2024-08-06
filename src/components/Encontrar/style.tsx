@@ -27,7 +27,7 @@ outline-width: 0;
 height: 40px;
 font-size: 14px;
 color: white;
-text-decoration: underline white;
+text-decoration: underline #888888;
 `
 
 export const Filtro = styled.div`

@@ -11,7 +11,6 @@ height: 70px;
 border-radius: 0px 0px 20px 20px;
 `
 
-
 export const HamburguerImg = styled.img`
 width: 24px;
 height: 24px;
@@ -26,6 +25,7 @@ border-radius: 20px;
 justify-content: center;
 gap: 10px;
 width: 258px;
+text-decoration: underline #f3f3f3;
 `
 export const InputPesquisa = styled.input`
 background-color: transparent;

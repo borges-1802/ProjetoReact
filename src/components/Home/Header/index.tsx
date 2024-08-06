@@ -2,15 +2,16 @@ import { Headers, HamburguerImg, CarrinhoImg, PesquisaImg, CaixaPesquisa, InputP
 import Hamburguer from "../../../assets/hamburguer.png"
 import Carrinho from "../../../assets/carrinho.png"
 import Pesquisa from "../../../assets/pesquisa.png"
+import { Link } from "react-router-dom";
 
 export default function HeaderHome() {
     return (
         <Headers>
            <HamburguerImg src={Hamburguer}></HamburguerImg>
-           <CaixaPesquisa>
+           <Link to="/Pesquisa"> <CaixaPesquisa>
             <PesquisaImg src={Pesquisa}></PesquisaImg>
            <InputPesquisa placeholder="Encontrar na Elektro..."></InputPesquisa>
-           </CaixaPesquisa>
+           </CaixaPesquisa></Link>
            <CarrinhoImg src={Carrinho}></CarrinhoImg>
         </Headers>
     );

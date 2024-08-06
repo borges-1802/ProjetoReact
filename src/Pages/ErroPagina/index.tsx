@@ -3,6 +3,7 @@ import { DivTotal, ErroDesc, ErroDiv, ErroTexto, ImgErro , Voltar } from "./styl
 import Erro from "../../assets/Erro.png"
 import NavBar from "../../components/NavBar"
 import VoltarImg from "../../assets/Voltar.png"
+import { Link } from "react-router-dom"
 
 function ErroPagina(){
     return(
@@ -15,7 +16,7 @@ function ErroPagina(){
         </ErroDiv>
 
         
-            <Voltar src={VoltarImg}/>
+            <Link to="/Home"><Voltar src={VoltarImg}/></Link>
 
         <NavBar/>
         </DivTotal>

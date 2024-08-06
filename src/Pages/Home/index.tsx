@@ -24,6 +24,7 @@ import HomeMonitor from '../../assets/HomeAssets/HomeMonitor.png'
 import CarrosselHome from '../../components/Home/Carrossel'
 import LogoElektro from '../../assets/LogoElektro.png'
 import RedesSociais from '../../assets/redesSociais.png'
+import { Link } from 'react-router-dom'
 
 
 
@@ -67,7 +68,7 @@ function Home() {
       <TextoPraVc>Para Você</TextoPraVc>
       <BarraHorizontal></BarraHorizontal>
       <ProdutosPraVc>
-      <Produto nome='MotoG20' preço='R$878,43' imagem={MotorolaHome}/>
+      <Link to="/ProdutoPage"><Produto nome='MotoG20' preço='R$878,43' imagem={MotorolaHome}/></Link>
       <Produto nome='Capa p/ Celular' preço='R$20,10' imagem={CapinhaHome}/>
       </ProdutosPraVc>
 
